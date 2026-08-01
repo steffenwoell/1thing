@@ -1,6 +1,23 @@
-_misc/
+# macOS
 .DS_Store
 ._*
 __MACOSX/
-*.app/
+
+# Swift/Xcode
 .build/
+DerivedData/
+*.app/
+*.dSYM/
+*.xcuserstate
+xcuserdata/
+
+# Local configuration
+_misc/
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*~
