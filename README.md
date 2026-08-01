@@ -67,23 +67,7 @@ Use `↑` and `↓` in the input field to browse the complete history, or click 
 ./build.zsh
 ```
 
-The finished app is written to:
-
-```text
-1thing.app
-```
-
 The build script uses `APPLE_SIGN_IDENTITY` from `~/.toolbox` when available. Without it, the app receives an ad-hoc signature.
-
-## Install
-
-```zsh
-rm -rf /Applications/1thing.app
-cp -R 1thing.app /Applications/
-open /Applications/1thing.app
-```
-
-Install the app in a stable location before enabling **Launch at login**.
 
 ## Controls
 
