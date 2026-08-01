@@ -2,10 +2,6 @@
 
 set -euo pipefail
 
-if [[ -f "$HOME/.toolbox" ]]; then
-    source "$HOME/.toolbox"
-fi
-
 PROJECT_DIR="${0:A:h}"
 APP_NAME="1thing"
 VERSION="$(
@@ -17,7 +13,6 @@ APP_BUNDLE="$PROJECT_DIR/$APP_NAME.app"
 CONTENTS="$APP_BUNDLE/Contents"
 MACOS_DIR="$CONTENTS/MacOS"
 RESOURCES_DIR="$CONTENTS/Resources"
-SIGN_IDENTITY="${APPLE_SIGN_IDENTITY:--}"
 
 print -- "Building $APP_NAME $VERSION \"Taarnet\" for Apple Silicon..."
 
@@ -37,12 +32,12 @@ swiftc \
 
 chmod +x "$MACOS_DIR/$APP_NAME"
 plutil -lint "$CONTENTS/Info.plist"
-
+xattr -cr "$APP_BUNDLE"
 codesign \
     --force \
     --deep \
     --options runtime \
-    --sign "$SIGN_IDENTITY" \
+    --sign - \
     "$APP_BUNDLE"
 
 codesign --verify --deep --strict --verbose=2 "$APP_BUNDLE"
@@ -50,7 +45,7 @@ codesign --verify --deep --strict --verbose=2 "$APP_BUNDLE"
 print
 print -- "✓ Build complete"
 print -- "  $APP_BUNDLE"
-print -- "  Signing identity: $SIGN_IDENTITY"
+print -- "  Signing: ad hoc"
 print
 print -- "Run with:"
 print -- "  open '$APP_BUNDLE'"
