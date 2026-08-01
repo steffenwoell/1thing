@@ -53,36 +53,6 @@ The newest entry appears first. Reusing an existing entry moves it to the top.
 
 Use `↑` and `↓` in the input field to browse the complete history, or click the inline history icon to choose from the ten most recent entries. Selecting an entry fills the editor; it is not saved until Return is pressed. Choose **Open History File…** to open the complete UTF-8 history in the default text editor.
 
-## Changes in 1.6
-
-- Removed labels from the compact editor controls
-- Added permanently visible color swatches beneath Light, Mixed, and Dark
-- Disabled and dimmed inactive profile colors
-- Combined text style and character limit in one compact row
-- Replaced the Characters label with an SF Symbol
-- Reduced the popover height
-
-## Changes in 1.5
-
-- Fixed the right-click color-profile menu appearance in Light Mode
-- Made the popover shrink in Automatic mode to remove unused empty space
-- Restored the larger popover size for Light, Mixed, and Dark profiles
-
-## Changes in 1.5
-
-- Made the Automatic profile icon more distinct from Mixed
-- Kept the input field in the normal system font regardless of menu bar style
-- Removed horizontal separators from the popover
-- Reordered color and style controls for a cleaner layout
-- Added **Open History File…** to the recent-history menu
-
-## Changes in 1.4
-
-- Added an inline menu for the ten most recent entries
-- Added Normal, Bold, and Italic text styles
-- Added SF Symbols to color-profile menus
-- Added matching History and Clear icons inside the input field
-
 ## Requirements
 
 - macOS 13 or later
