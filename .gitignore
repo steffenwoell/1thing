@@ -1,3 +1,6 @@
 _misc/
-1thing.app
 .DS_Store
+._*
+__MACOSX/
+*.app/
+.build/
