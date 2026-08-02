@@ -2,25 +2,16 @@
 
 Keep one thing visible at all times.
 
-<img src="docs/1thing_light.png" alt="1thing light mode screenshot" width="500">
-<img src="docs/1thing_dark.png" alt="1thing dark mode Screenshot" width="500">
+<img src="docs/1thing_light.png" alt="1thing light mode screenshot" width="300"> <img src="docs/1thing_dark.png" alt="1thing dark mode Screenshot" width="300">
 
 ## Features
 
 - Compact native macOS popover
-- Return saves; Escape closes without saving
-- Inline History and Clear buttons with subtle hover feedback
-- History menu with the ten most recent entries
-- Up/Down arrow navigation through the complete history
 - Automatic text color or three custom color profiles
 - Quick color-profile switching from the menu bar context menu
 - Normal, Bold, and Italic menu bar text styles
 - Configurable character limit
-- History stored in `~/.config/1thing/history.txt`
-- Shift-click shortcut to clear the saved text immediately
-- Launch at login through `SMAppService`
-- Native Edit menu shortcuts and `⌘Q`
-- App icon and native About dialog
+- Shift-click shortcut to clear text immediately
 - No Dock icon, analytics, account, or network access
 
 ## Color profiles
