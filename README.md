@@ -1,6 +1,6 @@
 # 1thing 1.9 "Taarnet"
 
-A lightweight, native macOS menu bar app that keeps one thing visible at all times.
+Keep one thing visible at all times.
 
 ![1thing Screenshot](docs/1thing_light.png) ![1thing Screenshot](docs/1thing_dark.png)
 
