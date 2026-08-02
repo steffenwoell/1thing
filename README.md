@@ -2,7 +2,8 @@
 
 Keep one thing visible at all times.
 
-![1thing Screenshot](docs/1thing_light.png) ![1thing Screenshot](docs/1thing_dark.png)
+<img src="docs/1thing_light.png" alt="1thing light mode screenshot" width="500">
+<img src="docs/1thing_dark.png" alt="1thing dark mode Screenshot" width="500">
 
 ## Features
 
