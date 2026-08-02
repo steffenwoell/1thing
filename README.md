@@ -2,7 +2,7 @@
 
 Keep one thing visible at all times.
 
-<img src="docs/1thing_light.png" alt="1thing light mode screenshot" width="300"> <img src="docs/1thing_dark.png" alt="1thing dark mode Screenshot" width="300">
+<img src="docs/1thing_light.png" alt="1thing light mode screenshot" width="400"> <img src="docs/1thing_dark.png" alt="1thing dark mode Screenshot" width="430">
 
 ## Features
 
