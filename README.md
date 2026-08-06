@@ -56,8 +56,8 @@ Use `↑` and `↓` in the input field to browse the complete history, or click 
 ## Build
 
 ```zsh
-xattr -cr "/Path/1thing-1.9"
-cd "/Path/1thing-1.9"
+xattr -cr "/Path-to/1thing"
+cd "/Path-to/1thing"
 ./build.zsh
 ```
 
